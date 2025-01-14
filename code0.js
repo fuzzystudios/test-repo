@@ -18,13 +18,14 @@ gdjs.Untitled_32sceneCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(7492388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9498980);
 }
 if (isConditionTrue_0) {
 gdjs.Untitled_32sceneCode.GDimages_9595d_95233filantesObjects1.length = 0;
 
 {gdjs.evtsExt__RectangularFloodFill__CreateObjectsOverRectangle.func(runtimeScene, gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDimages_95959595d_959595233filantesObjects1Objects, 4, 1, 0, 0, 40, 0, "", 0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtTools.camera.setCameraX(runtimeScene, 720, "", 0);
+}{gdjs.evtTools.tween.tweenNumberEffectPropertyTween(runtimeScene, "linear", 1, "", "Effect", "alpha", "linear", 1);
 }}
 
 }
@@ -74,6 +75,16 @@ gdjs.copyArray(runtimeScene.getObjects("images_défilantes"), gdjs.Untitled_32sc
     gdjs.Untitled_32sceneCode.GDimages_9595d_95233filantesObjects1[i].setZOrder(0);
 }
 }}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
 
 }
 
